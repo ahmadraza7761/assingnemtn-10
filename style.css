@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: dosis;
+    src: url(assets/fonts/Dosis/static/Dosis-Medium.ttf);
+}
+
+
+
+
+.background{
+    background-color:#EFEFEF;
+    padding-top: 7px;
+}
+.first>p{
+    font-size: 12px;
+
+}
+.logo-img{
+    vertical-align: -1px;
+}
+.logo>span{
+    font-size: 27px;
+    vertical-align: -6px;
+    letter-spacing: 2px;
+    color: black;
+    /* background-color: aqua; */
+    /* font-family: dosis; */
+}
+.items>a{
+    font-size: 18px;   color: black;
+    margin-left: 10px;
+    /* font-family: dosis; */
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+.icons{
+    width: 47px;
+    height: 47px;
+    border-radius: 7px;
+    background-color: white;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons>a>i{
+    font-size: 20px;
+    color: black;
+}
+.icons-2{
+    margin-right: 15px;
+}
+
+.background-hero{
+    background-image: url(assets/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 400px; */
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.443);
+    /* height: 100%; */
+
+}
+.text-1>h1{
+ font-size: 22px;
+ color: white;
+ /* font-family: dosis; */
+ /* line-height: 300px; */
+ /* margin-top: 49px; */
+ margin-bottom: 15px;
+}
+.text-2>h1{
+    color: white;
+    font-size: 50px;
+}
+.text-3>p{
+    color: white;
+    font-size: 19px;
+    margin-top: 25px;
+}
+.btn-color{
+    background-color:bisque;
+    color: black;
+    font-size: 18px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    border: none;
+
+
+}
+.btn-color-two{
+    background-color:black;
+    color: white;
+    font-size: 18px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    border: none;
+
+
+}
+.btn-color-one{
+    background-color:none;
+    color: white;
+    font-size: 18px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: 500;
+    border: 1px solid white;
+    /* margin-left: 15px; */
+    
+
+
+}
+
+.middle-space{
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+.button-one>button:hover{
+    background-color: white;
+    transition-delay: 0.2s;
+    color: black;
+}
+.button-two>button:hover{
+    background-color: beige;
+    /* transition-delay: 0.5s; */
+    transition-duration: 0.8s;
+ 
+    color: black;
+}
+.design{
+   /* border: 1px solid black; */
+   border-radius: 12px;
+   background-color: white;
+   padding-top: 22px;
+   /* padding-left: px; */
+   padding-bottom: 15px;
+   width: 110%;
+   
+}
+::placeholder{
+    padding-left: 5px;
+}
+.message-one>textarea::placeholder{
+    padding-top: 5px;
+}
+.design>i{
+    font-size: 30px;
+    color: #ff6347;
+}
+.design>h5{
+    font-size: 16px;
+}
+.text-6{
+    font-size: 55px; 
+    font-weight: 600;
+    line-height: 60px;
+}
+.bck-img{
+    background-image: url(assets/images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+@media screen and (max-width:767px) {
+    .text-1>h1{
+      text-align: center;
+      font-size: 24px;
+    }
+    .text-2>h1{
+      text-align: center;
+      
+    }
+    .text-3>p{
+      text-align: center;
+      
+    }
+    .button-one{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .button-two{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .button-two{
+        position: absolute;
+        margin-left: 190px;
+    }
+}
+@media screen and (max-width:574px) {
+    .button-two{
+        margin-bottom: 80px ;
+    }
+    .design{
+        width: 50%;
+    }
+    .text-4{
+        display: flex;
+        justify-content: center;
+    }
+    .text-5{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .text-6{
+        text-align: center;
+        font-size: 40px;
+    }
+    .text-7{
+        text-align: center;
+    }
+    .crd-img{
+        width: 55% !important;
+        /* height: 160px !important; */
+    }
+    .crd-txt>h1{
+
+        text-align: center;
+    }
+    .crd-txt>h1{
+        font-size: 45px !important;
+
+    }
+    .heading>h1{
+        font-size: 30px !important  ;
+    }
+}
+@media screen and (min-width:574px){
+
+    .padding-top{
+        padding-top: 80px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    .logo-one{
+        margin-left: 190px;
+    }
+    .logo-two{
+        text-align: center;
+    }
+    
+    
+}
+@media screen and (min-width:315px) and (max-width:576px) {
+
+
+
+    .logo-one{
+        text-align: center;
+        margin-right: 70px;
+    }
+    .logo-two{
+        font-size: 27px !important;
+        text-align: center;
+        margin-left: 60px;
+    }
+    .logo-three{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-three>img{
+        
+        height: 310px !important;
+        width: 70% !important;
+    }
+    .Copyright>h3{
+        font-size: 15px !important;
+    }
+    
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+
+
+
+    .logo-one{
+        text-align: center;
+        margin-right: 70px;
+    }
+    .logo-two{
+        font-size: 33px !important;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .logo-three{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-three>img{
+        margin-top: 20px;
+        height: 370px !important;
+        width: 70% !important;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+
+
+
+    .logo-one{
+        text-align: center;
+        display: flex;
+    }
+    .logo-two{
+        font-size: 33px !important;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .logo-three{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-three>img{
+        margin-top: 20px;
+        height: 430px !important;
+        width: 60% !important;
+        border-radius: 10px;
+    }
+    .crd-img{
+        width: 55% !important;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+
+
+    .logo-one{
+        text-align: center;
+        display: flex;
+    }
+    .logo-two{
+        font-size: 50px !important;
+    }
+    .logo-three{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo-three>img{
+        height: 350px !important;
+        width: 80% !important;
+        border-radius: 10px;
+    }
+    .crd-img{
+        width: 80% !important;
+    }
+}
+@media screen and (min-width:992px) {
+    .logo-three{
+        width: 90%;
+        transform: scale(1.2);
+        transform-origin: bottom;
+
+
+    }
+
+    
+}

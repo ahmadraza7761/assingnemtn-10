@@ -1,0 +1,283 @@
+.logo>h1{
+   font-size: 40px;
+   font-weight: bold;
+   
+}
+.active>p{
+    font-size: 20px;
+}
+.icons>i{
+    font-size: 19px;
+}
+.icons>a>i{
+    font-size: 19px;
+}
+
+.cart>span{
+    font-size:10px ;
+}
+.slider-text>span{
+    font-size: 50px;
+
+}
+
+.links{
+    font-size: 20px;
+}
+.links>a{
+    color: seagreen;
+
+}
+.left-btn{
+    margin-right: 140px;
+    
+}
+.right-btn{
+    margin-left: 140px;
+}
+
+.slider-text-two{
+    font-size: 35px;
+}
+.card-title>h1{
+    font-size: 25px;
+}
+.background{
+    background-color: #E9EEF5;
+}
+.background-footer{
+    background-color: #212934;
+}
+.slider-text-four{
+    font-size: 40px;
+}
+.truck-font{
+    font-size:70px;
+    color: #69BB7E;
+}
+.small-cards>p{
+    font-size: 20px;
+display: flex;
+justify-content: center;
+
+}
+.small-cards>i{
+    display: flex;
+    justify-content: center;
+}
+.small-cards:hover{
+    background-color: #69BB7E;
+    transition-duration: 1s;
+}
+.small-cards:hover i{
+    color: white;
+}
+.small-cards:hover p{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query responsive */
+
+@media only screen and (min-width:301px) and (max-width:350px) {
+
+    .slider-text>span{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .slider-text-four{
+        display: flex;
+        justify-content: center;
+    }
+    .slider-text-two{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .links{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 30px;
+    }
+   .slider{
+    height: 580px;
+   }
+   .slider-text{
+    font-size: 29px;
+   }
+   .slider-text-three{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+   }
+   .slider-text-four{
+    font-size: 25px;
+   }
+   .featured>p{
+    font-size: 38px;
+   }
+   .parah-one>p{
+    font-size: 17px;
+   }
+   .subscribe{
+    display: flex;
+    justify-content: center;
+   }
+   .sub{
+    margin-top: 10px;
+   }
+   .subscribe-icons{
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    margin-bottom: 15px;
+   }
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:351px) and (max-width:450px) {
+
+    .slider-text>span{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .slider-text-four{
+        font-size: 29px;
+        display: flex;
+        justify-content: center;
+    }
+    .slider-text-two{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .links{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 30px;
+    }
+   .slider{
+    height: 650px;
+   }
+   .slider-text{
+    font-size: 29px;
+   }
+   .slider-text-three{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+   }
+   .featured>p{
+    font-size: 38px;
+   }
+   .parah-one>p{
+    font-size: 17px;
+   }
+   
+    
+}
+
+@media only screen and (min-width:451px) and (max-width:550px) {
+
+    .slider-text>span{
+        font-size: 35px;
+        /* margin-left: 120px;
+         */
+         display: flex;
+        justify-content: center;
+
+    }
+    .slider-text-four{
+        display: flex;
+        justify-content: center;
+    }
+    .slider-text-two{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .slider-text-three{
+        display: flex;
+        justify-content: center;
+    }
+    .links{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 40px;
+    }
+   .slider{
+    height: 750px;
+   }
+   .slider-text{
+    font-size: 32px;
+   }
+   .slider-text-three{
+    font-size: 17px;
+   }
+    
+}
+@media only screen and (min-width:551px) and (max-width:767px){
+    .slider{
+        height: 900px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .slider{
+        height: 950px;
+    }
+    .parah-two{
+        font-size: 15px;
+    }
+
+}
+/* @media only screen and (min-width:515px) and (max-width:767px){
+    .space-card>img{
+        width:300px;
+    }
+    .space-card>.card-body{
+        width: 30rem;
+    }
+    .space-card{
+        width: 30rem;
+    }
+} */
